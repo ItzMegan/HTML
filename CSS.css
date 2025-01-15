@@ -1,0 +1,194 @@
+
+body {
+    background-color:rgb(143, 205, 78)
+}
+
+.PetPLanet{
+color: rgb(255, 248, 232);
+}
+
+
+    
+  .witte-balk {
+    border: 30;                
+    height: 80px;             
+    background-color:rgb(255, 248, 232);  
+    color:rgb(255, 248, 232);
+    margin: 0px;  
+    margin-top: 0px; 
+    border-radius: 20px;
+ }
+    
+    .wit-vak {
+    border: 100;                
+    height: 400px;             
+    background-color:rgb(255, 248, 232);  
+    color:rgb(143, 205, 78);
+    margin: 0px;  
+    margin-top: 25px; 
+    border-radius: 20px;
+ }
+
+    .wit-vak p{
+color:rgb(116, 158, 72 );
+font-size:larger;
+ }
+
+.wit-vak img {width: 150px;
+     margin-top: 50px;
+    margin:30px;
+    height:150px;
+}
+
+.witte-balk p {
+    font-size: 25px;
+            color:rgb(139, 192, 84); 
+            text-align: 0px;  
+            margin: 50px;
+}
+
+a{
+    color: rgb(139, 192, 84);
+    text-decoration:none;
+}
+
+a:hover {
+    color: rgb(116, 158, 72 )
+}
+
+.flexing{
+    display: flex;
+justify-content:space-around;
+text-align: center;
+}
+
+.doos{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(116, 158, 72 );
+    margin: 25px;
+    display:flex;
+    flex-direction:column-reverse;
+    border-radius: 20px;
+}
+
+
+
+.doos img{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+
+
+.form {
+    text-align: center;
+    padding: 20px; 
+    height: 0px;
+}
+
+.Naam{
+color: rgb(255, 248, 232);
+text-align: center;
+}
+
+#name{
+border-radius: 25px;
+border-color: rgb(139, 192, 84);
+background-color:rgb(255, 248, 232);
+color:rgb(116, 158, 72 );
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-style: none;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+}
+
+.tekst_cat{
+    background-color: rgb(255, 248, 232);
+    border-style: solid;
+    border-color: rgb(116, 158, 72 );
+}
+
+.tekst_hond{
+    background-color: rgb(255, 248, 232);
+    border-style: solid;
+    border-color: rgb(116, 158, 72 );
+}
+
+.tekst_aap{
+    background-color: rgb(255, 248, 232);
+    border-style: solid;
+    border-color: rgb(116, 158, 72 );
+}
+.gridContainter{
+    width: 100vw;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto auto auto;
+top:10%;
+position: absolute;
+grid-auto-rows: 100px;
+place-items: center;
+text-align: center;
+}
+
+.vakje{       
+    display: grid;
+    width: 400px;     
+    height: 300px;             
+    background-color:rgb(255, 248, 232);  
+    color:rgb(143, 205, 78);
+    margin: 0px;  
+    margin-top: 125px; 
+    border-radius: 20px;
+    place-self: center;
+    grid-column-start: 2;
+}
+
+.button{
+background-color:rgb(143, 205, 78);
+color:rgb(255, 248, 232);
+border-color:rgb(139, 192, 84);
+border-style:none;
+}
+
+@media (orientation : landscape) {}
+@media (orientation : portrait) {}
+
+
+@media (max-width : 920px) and (orientation : portrait) {
+    .flexing{
+        display: flex;
+    justify-content:space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+
+    .wit-vak {
+        border: 100;                
+        height: 995px;             
+        background-color:rgb(255, 248, 232);  
+        color:rgb(143, 205, 78);
+        margin: 0px;  
+        margin-top: 25px; 
+        border-radius: 20px;
+        
+     }
+}
+@media (max-width : 60em) and (orientation : landscape) {}
+@media (min-height : 1080px) and (orientation : landscape) {}
+@media (max-height : 600px) and (orientation : landscape){}
+
+    
+    
+    
+
+
+
